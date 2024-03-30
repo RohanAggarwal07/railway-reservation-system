@@ -1,0 +1,5 @@
+±21:12:25.410 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Got request to remove reservation for user with email: nonexistent@example.com
+¦21:12:25.420 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Request to get user reservation details by email: test@example.com 
+½21:12:25.422 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Request to modify user seat with email: test@example.com, newSection: A, newSeatNumber: 12
+½21:12:25.424 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Request to modify user seat with email: test@example.com, newSection: B, newSeatNumber: 11
+ª21:12:25.426 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Got request to remove reservation for user with email: test@example.com

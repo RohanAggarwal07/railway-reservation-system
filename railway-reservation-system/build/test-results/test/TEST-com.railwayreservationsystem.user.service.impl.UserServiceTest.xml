@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.railwayreservationsystem.user.service.impl.UserServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-03-30T15:42:25" hostname="MacBook-Pro-83.local" time="0.138">
+  <properties/>
+  <testcase name="testRemoveUserReservation_UserNotFound" classname="com.railwayreservationsystem.user.service.impl.UserServiceTest" time="0.129"/>
+  <testcase name="testGetUserReservationDetails_Success" classname="com.railwayreservationsystem.user.service.impl.UserServiceTest" time="0.002"/>
+  <testcase name="testModifyUserSeat_SeatAlreadyTaken" classname="com.railwayreservationsystem.user.service.impl.UserServiceTest" time="0.002"/>
+  <testcase name="testModifyUserSeat_Success" classname="com.railwayreservationsystem.user.service.impl.UserServiceTest" time="0.002"/>
+  <testcase name="testRemoveUserReservation_Success" classname="com.railwayreservationsystem.user.service.impl.UserServiceTest" time="0.002"/>
+  <system-out><![CDATA[21:12:25.410 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Got request to remove reservation for user with email: nonexistent@example.com
+21:12:25.420 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Request to get user reservation details by email: test@example.com 
+21:12:25.422 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Request to modify user seat with email: test@example.com, newSection: A, newSeatNumber: 12
+21:12:25.424 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Request to modify user seat with email: test@example.com, newSection: B, newSeatNumber: 11
+21:12:25.426 [Test worker] INFO com.railwayreservationsystem.user.service.impl.UserServiceImpl -- Got request to remove reservation for user with email: test@example.com
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
